@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+
+
 class ProductoDetalle extends Component {
 //function App() {
 
@@ -44,9 +46,7 @@ class ProductoDetalle extends Component {
                 <td>{ prod.descripcion}</td>
                 <td>{ prod.precio}</td>
                 <td>
-                    <a href={"http://localhost:3000/productos/"+prod.codigo}>
                         <img src={ prod.imagen} width="150px" height="150px"></img>
-                    </a>
                 </td>
               </tr>
             );
